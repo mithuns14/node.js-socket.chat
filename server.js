@@ -12,7 +12,6 @@ res.sendFile(__dirname + '/index.html');
 });
 
 
-
 io.on('connection', function(socket){
   console.log('a user connected');
   socket.on('chat message', function(msg){
