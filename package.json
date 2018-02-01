@@ -1,0 +1,15 @@
+{
+  "name": "node-socket-chat",
+  "version": "1.0.0",
+  "description": "node.js socket chat app ",
+  "main": "server.js",
+  "scripts": {
+    "test": ""
+  },
+  "author": "mithuns14",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.2",
+    "socket.io": "^2.0.4"
+  }
+}
